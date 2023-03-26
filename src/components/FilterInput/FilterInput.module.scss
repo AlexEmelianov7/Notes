@@ -1,0 +1,12 @@
+.filterInput {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  outline: none;
+  border: 1px solid #BFC4C9;
+  border-radius: 5px;
+  padding: 10px;
+  &:focus {
+    border: 1px solid #1DB5B3;
+  }
+}

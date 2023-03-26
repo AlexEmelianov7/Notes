@@ -1,0 +1,24 @@
+.note {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #7CCBCB;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  &.focused {
+    border: 1px solid #1DB5B3;
+  }
+  &Text{
+    width: 90%;
+    word-wrap: break-word;
+    font-weight: 600;
+  }
+  &Buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

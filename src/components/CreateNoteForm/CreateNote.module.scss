@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  & textarea {
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    outline: none;
+    border: 1px solid #BFC4C9;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    &:focus {
+      border: 1px solid #1DB5B3;
+    }
+  }
+}

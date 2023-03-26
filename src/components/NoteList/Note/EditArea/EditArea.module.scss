@@ -1,0 +1,10 @@
+.editArea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  & > span {
+    color: #FFFFFF;
+  }
+}
